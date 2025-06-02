@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹화면구현 0514</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <p id="header">여기는 header 영역</p>
+    <p id="me">그럼 나는 어떻게 되나?</p>
+    <button data-item="가방" data-cnt="10" data-price="4만원" onclick="alert('soldout')">가방 구매</button>
+    <button data-item="신발" data-cnt="0" data-price="9만원">신발 구매</button>
+    <button id="change_color" onclick="button3_click()">색상변경 하기</button>
+    <button id="change_size" onclick="button4_click()">글씨크기 바꾸기기</button>
+    <p id="main">여기는 메인 영역</p>
+    <p id="footer">여기는 footer 영역</p>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
